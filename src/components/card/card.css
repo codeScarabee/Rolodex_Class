@@ -1,0 +1,17 @@
+.card {
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border-radius: 5px;
+  padding: 20px;
+  backface-visibility: hidden;
+  text-align: center;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
